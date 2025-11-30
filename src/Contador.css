@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 3rem; /* aumenta a fonte da contagem */
+  margin-bottom: 20px;
+}
+
+button {
+  font-size: 1.5rem;   /* aumenta o tamanho da fonte do botão */
+  padding: 15px 30px;  /* aumenta o tamanho do botão */
+  border: none;
+  border-radius: 8px;
+  background-color: #4CAF50; /* verde */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049; /* cor mais escura ao passar o mouse */
+}
